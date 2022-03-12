@@ -211,18 +211,18 @@ header .main-nav > li > a:hover::before {
     top: 0;
   }
   50% {
-    top: -50px;
+    top: 45px;
   }
 }
 .landing .image img {
   position: relative;
-  width: 350px;
+  width: 280px;
   border-radius: 200px 20px;
   border: 2px solid var(--main-color);
   animation: up-and-down 5s linear infinite;
 }
 .landing .image img:hover {
-  width: 380px;
+  width: 300px;
   transition: var(--main-transition-durarion);
   border-radius: 20px 200px;
 }
@@ -235,7 +235,7 @@ header .main-nav > li > a:hover::before {
     text-align: center;
   }
   .landing .image img {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 }
 .landing .go-down {
