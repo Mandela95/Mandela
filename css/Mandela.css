@@ -6,7 +6,7 @@
 :root {
   --main-color: #2196f3;
   --main-color-alt: #1787e0;
-  --main-transition-durarion: 0.3s;
+  --main-transition-durarion: 0.5s;
   --main-padding-top: 100px;
   --main-padding-bottom: 100px;
   --section-background: #ececec;
@@ -355,6 +355,8 @@ header .mega-menu .links li a i {
   border-radius: 100px 50px;
   border: 2px solid var(--main-color);
   animation: up-and-down 5s linear infinite;
+  transition: var(--main-transition-durarion);
+
 }
 
 .landing .image img:hover {
