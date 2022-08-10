@@ -419,7 +419,7 @@ header .mega-menu .links li a i {
   border-radius: 6px;
   overflow: hidden;
   transition: transform var(--main-transition-durarion),
-    box-shadow var(--main-transition-durarion);
+  box-shadow: 1px 1px 8px 1px var(--main-color);
 }
 
 .articles .container .box:hover {
