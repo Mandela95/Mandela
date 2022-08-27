@@ -661,3 +661,21 @@ header .mega-menu .links li a i {
     height: 150%;
   }
 }
+
+.up {
+  position: fixed;
+  right: -40px;
+  bottom: 20px;
+  background: deepskyblue;
+  color: white;
+  padding: 7px 9px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.up.show {
+  right: 20px;
+}
